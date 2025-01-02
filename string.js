@@ -38,12 +38,9 @@
 
 
 function remove(str){
-    let s=''
+    
     if(str[0] === `'` && str[str.length-1] === `'` || str[0] === `"` && str[str.length-1] === `"`){
-        for(let i=1;i<str.length-1;i++){
-            s += str[i]
-        }
-        return s
+        return str.slice(1, -1); 
     }else{
         return str
     }
