@@ -37,13 +37,30 @@
 
 
 
-function remove(str){
+// function remove(str){
     
-    if(str[0] === `'` && str[str.length-1] === `'` || str[0] === `"` && str[str.length-1] === `"`){
-        return str.slice(1, -1); 
-    }else{
-        return str
-    }
-}
+//     if(str[0] === `'` && str[str.length-1] === `'` || str[0] === `"` && str[str.length-1] === `"`){
+//         return str.slice(1, -1); 
+//     }else{
+//         return str
+//     }
+// }
 
-console.log(remove(`"hello world"`))
+// console.log(remove(`"hello world"`))
+
+//-----------------------------------------------------------------------
+
+// write a function to count the  number of 'w' in a string
+
+// function count(str){
+//     let count=0
+//     for(let i=0;i<str.length;i++){
+//         if(str[i] === 'w'){
+//             count++
+//         }
+//     }
+//     return count
+// }
+
+// console.log(count("world"))
+// console.log(count("wow"))
