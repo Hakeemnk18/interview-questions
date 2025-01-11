@@ -68,14 +68,14 @@
 
 //-------------------------------------------------------------------------
 
-In Javascript create a function that is passed in an array of integers, 
-sorts that array in numerical order and outputs the 
-array as a concatenated string. For example, if an array holds the integers 
-1. 2. 35. 4. 8. 3 the function returns 1234835.
+// In Javascript create a function that is passed in an array of integers, 
+// sorts that array in numerical order and outputs the 
+// array as a concatenated string. For example, if an array holds the integers 
+// 1. 2. 35. 4. 8. 3 the function returns 1234835.
 
-function sort(nums){
-    nums = nums.sort((a,b)=> a-b)
-    return nums.join('')
-}
+// function sort(nums){
+//     nums = nums.sort((a,b)=> a-b)
+//     return nums.join('')
+// }
 
-console.log(sort([2,4,35,8,3]))
+// console.log(sort([2,4,35,8,3]))
